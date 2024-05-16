@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f2f5;
+}
+h2{
+    font-size: 50px;
+    color: #1877f2;
+    margin: 58px 0 12px 640px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+form{
+    height: 350px;
+    width: 430px;
+    border-radius: 3px;
+    margin: auto;
+    background-color: #ffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.pp{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    line-height: 22px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+input{
+    width: 400px;
+    height: 55px;
+    line-height: 46px;
+    border: 1px solid #DDDFE2;
+    border-radius: 6px;
+    outline: none;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 14px 16px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    margin-left: 16px;
+}
+button{
+    background-color: #1877f2;
+    color: #ffff;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    font-size: 25px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 6px;
+}
+.ppp{
+    display: flex;
+    margin-left: 80px;
+    align-items: center;
+}
+.ppp a{
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #18A4F7;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.ppp a:hover{
+    text-decoration: underline;
+}
+.ppp p{
+    text-align: center;
+    color: #18A4F7;
+    font-size: 24px;
+}
+footer{
+    height: 340px;
+    background-color: #ffff;
+}
+.naah{
+    display: flex;
+    gap: 10px;
+    margin-left: 200px;
+    margin-top: 80px;
+    padding-top: 180px;
+    border-bottom: 1px solid #8A8D91;
+    margin-right: 400px;
+}
+.naah a{
+    text-decoration: none;
+    color: #8A8D91;
+}
+.naah a:hover{
+    text-decoration: underline;
+}
+.buttonn{
+    background-color: grey;
+    width: 30px;
+    height: 20px;
+    border-radius: 0;
+    padding: 5px;
+}
